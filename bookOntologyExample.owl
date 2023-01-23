@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/csanz/ontologies/2021/10/untitled-ontology-86"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/csanz/ontologies/2021/10/untitled-ontology-86">
+    <Prefix name="" IRI="http://www.semanticweb.org/csanz/ontologies/2021/10/untitled-ontology-86"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#genreOfBook"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAuthor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#author_has_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#book_has_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#genre_has_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#book8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#genre1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#genre2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#genre3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#genre4"/>
+    </Declaration>
+    <DisjointClasses>
+        <Class IRI="#Author"/>
+        <Class IRI="#Book"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#book8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#genre1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#genre2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#genre3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#genre4"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#author1"/>
+        <NamedIndividual IRI="#author2"/>
+        <NamedIndividual IRI="#author3"/>
+        <NamedIndividual IRI="#author4"/>
+        <NamedIndividual IRI="#author5"/>
+        <NamedIndividual IRI="#author6"/>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#book3"/>
+        <NamedIndividual IRI="#book4"/>
+        <NamedIndividual IRI="#book5"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#book8"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#author1"/>
+        <NamedIndividual IRI="#author2"/>
+        <NamedIndividual IRI="#author3"/>
+        <NamedIndividual IRI="#author4"/>
+        <NamedIndividual IRI="#author5"/>
+        <NamedIndividual IRI="#author6"/>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#book3"/>
+        <NamedIndividual IRI="#book4"/>
+        <NamedIndividual IRI="#book5"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#book8"/>
+        <NamedIndividual IRI="#genre1"/>
+        <NamedIndividual IRI="#genre2"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#author1"/>
+        <NamedIndividual IRI="#author2"/>
+        <NamedIndividual IRI="#author3"/>
+        <NamedIndividual IRI="#author4"/>
+        <NamedIndividual IRI="#author5"/>
+        <NamedIndividual IRI="#author6"/>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#book3"/>
+        <NamedIndividual IRI="#book4"/>
+        <NamedIndividual IRI="#book5"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#book8"/>
+        <NamedIndividual IRI="#genre1"/>
+        <NamedIndividual IRI="#genre2"/>
+        <NamedIndividual IRI="#genre3"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#author1"/>
+        <NamedIndividual IRI="#author2"/>
+        <NamedIndividual IRI="#author3"/>
+        <NamedIndividual IRI="#author4"/>
+        <NamedIndividual IRI="#author5"/>
+        <NamedIndividual IRI="#author6"/>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#book3"/>
+        <NamedIndividual IRI="#book4"/>
+        <NamedIndividual IRI="#book5"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#book8"/>
+        <NamedIndividual IRI="#genre1"/>
+        <NamedIndividual IRI="#genre2"/>
+        <NamedIndividual IRI="#genre3"/>
+        <NamedIndividual IRI="#genre4"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#book3"/>
+        <NamedIndividual IRI="#book4"/>
+        <NamedIndividual IRI="#book5"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#book8"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#author1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#book1"/>
+        <NamedIndividual IRI="#genre1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#author2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#book2"/>
+        <NamedIndividual IRI="#genre3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book3"/>
+        <NamedIndividual IRI="#author3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book4"/>
+        <NamedIndividual IRI="#author4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book5"/>
+        <NamedIndividual IRI="#author5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#author6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#book6"/>
+        <NamedIndividual IRI="#genre2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#author6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#book7"/>
+        <NamedIndividual IRI="#genre4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <NamedIndividual IRI="#book8"/>
+        <NamedIndividual IRI="#author6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#book8"/>
+        <NamedIndividual IRI="#genre4"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author1"/>
+        <Literal>Grace Paley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author2"/>
+        <Literal>Gil Brewer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author3"/>
+        <Literal>Pat Murphy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author4"/>
+        <Literal>Louis Auchincloss</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author5"/>
+        <Literal>Amy Hempel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author6"/>
+        <Literal>Donald Trump</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book1"/>
+        <Literal>The Collected Stories of Grace Paley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book2"/>
+        <Literal>The Campus Murders</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book3"/>
+        <Literal>The City, Not Long After</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book4"/>
+        <Literal>The Cat and the King</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book5"/>
+        <Literal>The Collected Stories of Amy Hempel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book6"/>
+        <Literal>Great Again: How to Fix Our Crippled America</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book7"/>
+        <Literal>Why We Want You to Be Rich: Two Men, One Message</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#book_has_name"/>
+        <NamedIndividual IRI="#book8"/>
+        <Literal>Trump: How to Get Rich</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genre_has_name"/>
+        <NamedIndividual IRI="#genre1"/>
+        <Literal>Romance</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genre_has_name"/>
+        <NamedIndividual IRI="#genre2"/>
+        <Literal>Politics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genre_has_name"/>
+        <NamedIndividual IRI="#genre3"/>
+        <Literal>Thriller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genre_has_name"/>
+        <NamedIndividual IRI="#genre4"/>
+        <Literal>Economics</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#genreOfBook"/>
+        <ObjectProperty IRI="#hasGenre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="#isAuthor"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAuthor"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAuthor"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#author_has_name"/>
+        <Class IRI="#Author"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#book_has_name"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#genre_has_name"/>
+        <Class IRI="#Genre"/>
+    </DataPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
