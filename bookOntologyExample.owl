@@ -61,6 +61,12 @@
         <NamedIndividual IRI="#author6"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#author7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#author8"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#book1"/>
     </Declaration>
     <Declaration>
@@ -92,9 +98,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#genre3"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#genre4"/>
     </Declaration>
     <DisjointClasses>
         <Class IRI="#Author"/>
@@ -125,6 +128,14 @@
         <NamedIndividual IRI="#author6"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Author"/>
+        <NamedIndividual IRI="#author8"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Book"/>
         <NamedIndividual IRI="#book1"/>
     </ClassAssertion>
@@ -167,10 +178,6 @@
     <ClassAssertion>
         <Class IRI="#Genre"/>
         <NamedIndividual IRI="#genre3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Genre"/>
-        <NamedIndividual IRI="#genre4"/>
     </ClassAssertion>
     <DifferentIndividuals>
         <NamedIndividual IRI="#author1"/>
@@ -224,26 +231,6 @@
         <NamedIndividual IRI="#genre1"/>
         <NamedIndividual IRI="#genre2"/>
         <NamedIndividual IRI="#genre3"/>
-    </DifferentIndividuals>
-    <DifferentIndividuals>
-        <NamedIndividual IRI="#author1"/>
-        <NamedIndividual IRI="#author2"/>
-        <NamedIndividual IRI="#author3"/>
-        <NamedIndividual IRI="#author4"/>
-        <NamedIndividual IRI="#author5"/>
-        <NamedIndividual IRI="#author6"/>
-        <NamedIndividual IRI="#book1"/>
-        <NamedIndividual IRI="#book2"/>
-        <NamedIndividual IRI="#book3"/>
-        <NamedIndividual IRI="#book4"/>
-        <NamedIndividual IRI="#book5"/>
-        <NamedIndividual IRI="#book6"/>
-        <NamedIndividual IRI="#book7"/>
-        <NamedIndividual IRI="#book8"/>
-        <NamedIndividual IRI="#genre1"/>
-        <NamedIndividual IRI="#genre2"/>
-        <NamedIndividual IRI="#genre3"/>
-        <NamedIndividual IRI="#genre4"/>
     </DifferentIndividuals>
     <DifferentIndividuals>
         <NamedIndividual IRI="#book1"/>
@@ -293,7 +280,7 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
         <NamedIndividual IRI="#book6"/>
-        <NamedIndividual IRI="#author6"/>
+        <NamedIndividual IRI="#author7"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasGenre"/>
@@ -308,17 +295,17 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasGenre"/>
         <NamedIndividual IRI="#book7"/>
-        <NamedIndividual IRI="#genre4"/>
+        <NamedIndividual IRI="#genre2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasAuthor"/>
         <NamedIndividual IRI="#book8"/>
-        <NamedIndividual IRI="#author6"/>
+        <NamedIndividual IRI="#author8"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasGenre"/>
         <NamedIndividual IRI="#book8"/>
-        <NamedIndividual IRI="#genre4"/>
+        <NamedIndividual IRI="#genre2"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#author_has_name"/>
@@ -348,7 +335,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#author_has_name"/>
         <NamedIndividual IRI="#author6"/>
-        <Literal>Donald Trump</Literal>
+        <Literal>J.K Rowling</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author7"/>
+        <Literal>C.S. Lewis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#author_has_name"/>
+        <NamedIndividual IRI="#author8"/>
+        <Literal>George R. R. Martin</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#book_has_name"/>
@@ -378,17 +375,17 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#book_has_name"/>
         <NamedIndividual IRI="#book6"/>
-        <Literal>Great Again: How to Fix Our Crippled America</Literal>
+        <Literal>The Lion, the Witch and the Wardrobe</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#book_has_name"/>
         <NamedIndividual IRI="#book7"/>
-        <Literal>Why We Want You to Be Rich: Two Men, One Message</Literal>
+        <Literal>Harry Potter and the Sorcerer&apos;s Stone</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#book_has_name"/>
         <NamedIndividual IRI="#book8"/>
-        <Literal>Trump: How to Get Rich</Literal>
+        <Literal>A Game of Thrones</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#genre_has_name"/>
@@ -398,17 +395,12 @@
     <DataPropertyAssertion>
         <DataProperty IRI="#genre_has_name"/>
         <NamedIndividual IRI="#genre2"/>
-        <Literal>Politics</Literal>
+        <Literal>Fantasy</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#genre_has_name"/>
         <NamedIndividual IRI="#genre3"/>
         <Literal>Thriller</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#genre_has_name"/>
-        <NamedIndividual IRI="#genre4"/>
-        <Literal>Economics</Literal>
     </DataPropertyAssertion>
     <InverseObjectProperties>
         <ObjectProperty IRI="#genreOfBook"/>
